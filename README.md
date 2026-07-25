@@ -1,6 +1,5 @@
 # Взаємодія
 
-![tests](https://github.com/oustalker/vzaemodiia/actions/workflows/tests.yml/badge.svg)
 ![python](https://img.shields.io/badge/python-3.11%2B-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 
