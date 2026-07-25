@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Взаємодія — дошка запитів</title>
+<meta name="description" content="Координація між військовими, волонтерами та цивільними: запити, збори, донати речами.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Onest:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div id="app" class="shell" hidden>
+    <nav class="rail" id="rail"></nav>
+    <main class="main" id="main"></main>
+  </div>
+
+  <div id="gate" class="gate" hidden></div>
+
+  <div id="modal-root" class="modal-root" hidden></div>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Оточення та база — ніколи не потрапляють у репозиторій
+.env
+*.db
+*.sqlite3
+
+# Редактори та ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Тимчасове
+.pytest_cache/
+shots/
